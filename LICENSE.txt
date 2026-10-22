@@ -1,0 +1,76 @@
+SimMate — licence / ข้อตกลงการใช้งาน
+Copyright (c) 2026 PHUICMT. All rights reserved.
+
+-------------------------------------------------------------------------------
+English
+-------------------------------------------------------------------------------
+
+SimMate is free to download and use.
+
+You may:
+  - install and use it on as many of your own computers as you like, for free,
+    including at events and in leagues
+  - share the link to SimMate in the Microsoft Store
+    (https://apps.microsoft.com/detail/9MXSCNMJ6MX2) or its website
+    (https://simmate.phu-space.com)
+  - share, publish or sell anything you made with it: your laps, exported
+    sessions, setups and screenshots are yours
+
+You may not:
+  - sell SimMate, or charge for access to it
+  - give out modified copies of the program, or copies from anywhere other
+    than the Microsoft Store, as "SimMate"
+  - remove this licence or the third-party notices (NOTICE.txt)
+
+The parts that come from other people keep their own licences, listed in
+NOTICE.txt: Python, numpy, Preact, uPlot, three.js, Motion, lucide, the
+TUMFTM track data (LGPL-3.0), OpenStreetMap data (ODbL 1.0) and the CC0 car
+models. Nothing in this licence limits what those licences allow.
+
+Data: SimMate keeps your driving on your computer. It sends something to the
+developer only if you switch that on in Settings, and only the parts you
+chose. https://simmate.phu-space.com/privacy says exactly what and how to
+delete it.
+
+No warranty. SimMate is provided as it is. The developer is not liable for
+any damage or loss from using it, including lost laps or setups. Keep your
+own copy of anything that matters. SimMate writes setup files only when you
+ask, and backs up the file it replaces.
+
+Assetto Corsa Competizione is a trademark of Kunos Simulazioni / 505 Games.
+SimMate is not made, endorsed or supported by them.
+
+-------------------------------------------------------------------------------
+ภาษาไทย
+-------------------------------------------------------------------------------
+
+SimMate ดาวน์โหลดและใช้ได้ฟรี
+
+ทำได้:
+  - ติดตั้งและใช้ในเครื่องของตัวเองกี่เครื่องก็ได้ ฟรี รวมถึงใช้ในงานแข่งและลีก
+  - แชร์ลิงก์ SimMate ใน Microsoft Store
+    (https://apps.microsoft.com/detail/9MXSCNMJ6MX2) หรือเว็บ (https://simmate.phu-space.com)
+  - แชร์ เผยแพร่ หรือขายสิ่งที่ทำด้วยโปรแกรมนี้ได้ รอบที่บันทึก session ที่ส่งออก
+    setup และภาพหน้าจอเป็นของคุณ
+
+ห้าม:
+  - ขาย SimMate หรือเก็บเงินค่าเข้าใช้
+  - แจกโปรแกรมที่ดัดแปลงแล้ว หรือแจกไฟล์ที่ไม่ได้มาจาก Microsoft Store
+    ในชื่อ "SimMate"
+  - ลบข้อตกลงนี้หรือรายการสิทธิ์ของผู้อื่น (NOTICE.txt) ออก
+
+ส่วนที่มาจากผู้อื่นใช้ข้อตกลงของเจ้าของเดิม ตามรายการใน NOTICE.txt ได้แก่
+Python, numpy, Preact, uPlot, three.js, Motion, lucide, ข้อมูลสนามของ TUMFTM
+(LGPL-3.0), ข้อมูล OpenStreetMap (ODbL 1.0) และโมเดลรถ CC0 ข้อตกลงนี้ไม่ได้
+จำกัดสิ่งที่ข้อตกลงเหล่านั้นอนุญาต
+
+ข้อมูล: SimMate เก็บข้อมูลการขับไว้ในเครื่องของคุณ จะส่งให้ผู้พัฒนาก็ต่อเมื่อเปิด
+ในหน้าตั้งค่าเอง และส่งเฉพาะข้อที่เลือก ส่งอะไรบ้างและลบยังไงอยู่ที่
+https://simmate.phu-space.com/privacy
+
+ไม่มีการรับประกัน SimMate ให้ใช้ตามสภาพที่เป็นอยู่ ผู้พัฒนาไม่รับผิดชอบความเสียหาย
+หรือข้อมูลที่หายจากการใช้งาน รวมถึงรอบหรือ setup ที่หายไป อะไรที่สำคัญให้สำรองไว้เอง
+SimMate เขียนไฟล์ setup เฉพาะตอนที่สั่ง และสำรองไฟล์เดิมไว้ให้ทุกครั้ง
+
+Assetto Corsa Competizione เป็นเครื่องหมายการค้าของ Kunos Simulazioni / 505 Games
+SimMate ไม่ได้ทำ รับรอง หรือสนับสนุนโดยบริษัทเหล่านั้น

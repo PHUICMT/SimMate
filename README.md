@@ -41,7 +41,8 @@ This repository holds problem reports, ideas and release notes. The source is ke
 
 ## Licence
 
-SimMate is free to download and use. Third-party parts keep their own licences, listed in `NOTICE.txt` inside the
+SimMate is free to download and use, under the terms in [LICENSE.txt](LICENSE.txt) (English and Thai).
+Third-party parts keep their own licences, listed in `NOTICE.txt` inside the
 app.
 
 Assetto Corsa Competizione is a trademark of [Kunos Simulazioni](https://www.kunos-simulazioni.com) /
