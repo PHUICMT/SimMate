@@ -1,0 +1,45 @@
+name: เสนอไอเดีย / Suggest an idea
+description: อยากให้ SimMate ทำอะไรเพิ่ม หรือทำต่างจากเดิม / Something you want SimMate to do, or do differently
+labels: [idea]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        เขียนไทยหรืออังกฤษก็ได้
+        Thai or English are both fine.
+
+  - type: textarea
+    id: want
+    attributes:
+      label: อยากได้อะไร / What you want
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: ทำไม เจอสถานการณ์ไหนตอนขับ / Why, and when it comes up while driving
+      description: |
+        เล่าตอนที่อยากได้จริง ๆ เช่น "ตอน race 1 ชั่วโมง อยากรู้ว่าน้ำมันพอถึงพิตไหม"
+        Tell the moment you wanted it, e.g. "in a 1-hour race I want to know if the fuel lasts to my stop".
+    validations:
+      required: true
+
+  - type: dropdown
+    id: screen
+    attributes:
+      label: หน้าไหน / Which screen
+      options:
+        - ภาพรวม / Overview
+        - รายโค้ง / Corners
+        - ทุกรอบ / Laps
+        - รีเพลย์ / Replay
+        - ตั้งค่ารถ / Setup
+        - รถ · ยาง · อากาศ / Car · tyres · weather
+        - พัฒนาการ / Progress
+        - overlay ในเกม / In-game overlay
+        - เสียงวิศวกร / Race engineer voice
+        - มือถือ / Phone
+        - หน้าใหม่ หรือไม่แน่ใจ / Something new, or not sure
+    validations:
+      required: false

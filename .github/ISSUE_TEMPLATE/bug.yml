@@ -1,0 +1,106 @@
+name: แจ้งปัญหา / Report a problem
+description: SimMate ทำงานผิด ค้าง หรือบอกอะไรแปลก ๆ / SimMate did something wrong, froze, or said something odd
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        เขียนไทยหรืออังกฤษก็ได้ ขอบคุณที่ช่วยแจ้งครับ
+        Thai or English are both fine. Thanks for reporting it.
+
+  - type: input
+    id: version
+    attributes:
+      label: เวอร์ชัน SimMate / SimMate version
+      description: |
+        ในแอปกดปุ่ม i (มุมขวาบน) เลขเวอร์ชันอยู่ล่างสุด
+        In the app, press the i button (top right); the version is at the bottom.
+      placeholder: "2.0"
+    validations:
+      required: true
+
+  - type: input
+    id: car
+    attributes:
+      label: รถ / Car
+      placeholder: Mercedes-AMG GT3 Evo
+    validations:
+      required: false
+
+  - type: input
+    id: track
+    attributes:
+      label: สนาม / Track
+      placeholder: Monza
+    validations:
+      required: false
+
+  - type: dropdown
+    id: session
+    attributes:
+      label: ประเภท session / Session type
+      options:
+        - Practice
+        - Qualify
+        - Race
+        - Hotlap
+        - Hotstint
+        - Other
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: เกิดอะไรขึ้น / What happened
+      description: |
+        ถ้ามีภาพหน้าจอ ลากมาวางในช่องนี้ได้เลย
+        A screenshot helps. Drag it into this box.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ควรจะเป็นแบบไหน / What you expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: ทำยังไงถึงเจอ / Steps to make it happen
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: while-driving
+    attributes:
+      label: เกิดตอนกำลังขับอยู่ไหม / Did it happen while driving?
+      options:
+        - ใช่ ตอนขับอยู่ในสนาม / Yes, while on track
+        - ตอนอยู่ในพิตหรือเมนูของเกม / In the pits or the game menus
+        - ไม่ได้เปิดเกม / The game was not running
+        - ไม่แน่ใจ / Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: log
+    attributes:
+      label: ไฟล์ log / Log file
+      description: |
+        ลากไฟล์ `archiver.log` มาวางในช่องนี้ ไฟล์อยู่ที่
+        `Documents\Assetto Corsa Competizione\SimMate data\archiver.log`
+        (ถ้า Documents อยู่ใน OneDrive จะเป็น `OneDrive\Documents\...`)
+
+        Drag `archiver.log` into this box. It is in
+        `Documents\Assetto Corsa Competizione\SimMate data\archiver.log`
+        (or `OneDrive\Documents\...` if your Documents folder is on OneDrive).
+      placeholder: ลากไฟล์มาวางตรงนี้ / Drop the file here
+    validations:
+      required: false
