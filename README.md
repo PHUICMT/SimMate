@@ -10,8 +10,8 @@ the rule and the numbers behind it.
 
 ## Download
 
-Coming soon on the Microsoft Store: https://apps.microsoft.com/detail/9MXSCNMJ6MX2 (the page opens once the
-first release is out). Windows 10 or 11 and ACC are all you need; Python and the browser engine come inside.
+Free on the Microsoft Store: https://apps.microsoft.com/detail/9MXSCNMJ6MX2. Windows 10 or 11 and ACC are all you
+need; Python and the browser engine come inside, and the Store keeps SimMate up to date.
 
 ## Privacy
 
